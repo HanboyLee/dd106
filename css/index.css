@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*-- --------------header     start-------------*/
+.header{
+    width: 100%;
+    background-color: #ccc;
+    height: 120px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
+/* left */
+.header-left{
+    justify-self: flex-start;
+    /* background-color: #0fa; */
+    display: flex;
+}
+.header-left .header-left-img{
+    /* background: #000; */
+    width: 100%;
+    margin: auto;
+    padding-left: 30px;
+    /* padding: 20px; */
+}
+.header-left .header-left-link{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin:  auto 0 ;
+
+}
+.header-left .header-left-link .enlink{width: 100%;}
+.header-left .header-left-link .ctlink{width: 100%;}
+
+/* center */
+.header-center{
+    padding: 20px 0;
+    /* margin: auto 20px; */
+    margin: auto;
+
+    /* background-color: #0ff; */
+}
+.header-center .nav{
+    height: auto;
+    display: flex;
+    text-align: center;
+    /* background-color: #f00; */
+    align-items: center;
+
+}
+.header-center .nav .item{
+    width: 100%;
+    margin: 0 20px;
+}
+/* right */
+.header-right{
+    background-color: #f0f;
+    text-align: center;
+}
+.header-right .header-right_nav{}
+.header-right .header-right_nav .top-search{display: flex;}
+.header-right .header-right_nav .top-search .item{}
+
+/*-- --------------header     end-------------*/
+
+
+
+
+/*-- --------------banner     start-------------*/
+
+.banner{
+    margin: 100px auto;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #f00;
+}
+
+.banner .container {
+    width: 100%;
+    display: flex;
+    border: 2px solid #ccc;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.banner .container .item {
+    width: 250px;
+    margin: 5px auto;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 5px #ccc;
+
+}
+
+.banner .container .imgbox {
+    padding: 5px 0;
+    /* background-color: #f00; */
+    text-align: center;
+}
+
+.banner .container .imgbox a {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.banner .container .imgbox a img {
+    box-shadow: 5px 10px 5px #ccc;
+}
+
+.banner .container .item .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.banner .container .item .content {
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
